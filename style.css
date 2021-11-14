@@ -180,7 +180,7 @@ ul.topnav  li.dropdownIcon {
 	opacity: 0.2;
 }
 .creation-image-containers {
- 	width: 80%;
+ 	width: 83%;
  	margin: auto;
  	margin-bottom: 100px;
 }
@@ -188,17 +188,11 @@ ul.topnav  li.dropdownIcon {
  	display: flex;
  	flex-wrap: wrap;
  	padding: 0 4px;
- 	justify-content: space-between;
 }
  .column {
  	flex: 20%;
  	max-width: 100%;
- 	padding: 0 5px;
- }
- .column img {
- 	/*margin-top: 8px;
- 	vertical-align: middle;
- 	width: 100%;*/
+ 	padding: 0 4px;
  }
  .mobile-image-containers {
  	display: none;
