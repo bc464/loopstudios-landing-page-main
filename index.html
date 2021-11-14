@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Semi+Condensed:wght@500;600&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    <div class="logo">
+      <img class="logo-top" src="./images/logo.svg" alt="business logo">
+    </div>
+    <nav class="navigation">
+      <ul class="topnav" id="dropdownClick">
+        <li class="topnav-right"><a class="topnav-a" href="#" aria-label="link to about us">About</a></li>
+        <li class="topnav-right"><a class="topnav-a" href="#" aria-label="link to careers">Careers</a></li>
+        <li class="topnav-right"><a class="topnav-a" href="#" aria-label="link to events">Events</a></li>
+        <li class="topnav-right"><a class="topnav-a" href="#" aria-label="link to products">Products</a></li>
+        <li class="topnav-right"><a class="topnav-a" href="#" aria-label="link to support">Support</a></li>
+        <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()"><span class="open"><img src="./images/icon-hamburger.svg" alt="hamburger Icon"></span></a>
+        <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()"><span class="close"><img src="./images/icon-close.svg" alt="closing icon"></span></li></a>
+      </ul>
+    </nav>
+    <div class="main-heading">
+      <h1 class="heading-info">Immersive experiences that deliver</h1>
+    </div>
+  </header>
+  <section class="leader-interactive">
+    <div class="images-interactive">
+      <img  class="desktop-interactive-image desktop-image" src="./images/desktop/image-interactive.jpg" alt="interactive image">
+      <img class="mobile-interactive-image mobile-image" src="./images/mobile/image-interactive.jpg" alt="interactive image">
+    </div>
+    <div class="description-interactive">
+      <h2>The leader in interactive VR</h2>
+      <p>Founded in 2011, Loopstudios has been producing world-class virtual reality 
+      projects for some of the best companies around the globe. Our award-winning 
+      creations have transformed businesses through digital experiences that bind 
+       to their brand.</p>
+    </div>
+  </section>
+  <section class="creations">
+    <div class="creations-heading">
+      <h2>Our creations</h2>
+      <button class="btn btn-top">See all</button>
+    </div>
+  </section>
+  <div class="creation-image-containers row">
+    <div class="creation-images column">
+      <a href="#"  aria-label="link to deep earth"><img class="deep-earth-desktop-img " src="./images/desktop/image-deep-earth.jpg" alt="deep earth image"></a><h4 class="link-description">Deep <br>earth</h4>
+    </div>
+    <div class="creation-images column">
+      <a href="#"  aria-label="link to night arcade"><img class="night-arcade-desktop-img " src="./images/desktop/image-night-arcade.jpg" alt="night arcade image"></a><h4 class="link-description"> Night<br> arcade</h4>
+    </div>
+    <div class="creation-images column">
+      <a href="#"  aria-label="link to soccer team"><img class="soccer-team-desktop-img " src="./images/desktop/image-soccer-team.jpg" alt="soccer team image"></a><h4 class="link-description">Soccer<br> team VR</h4>
+    </div>
+    <div class="creation-images column">
+      <a href="#"  aria-label="link to grid"><img class="grid-desktop-img " src="./images/desktop/image-grid.jpg" alt="grid image"></a><h4 class="link-description">The<br> grid</h4>
+    </div>
+    <div class="creation-images column">
+      <a href="#"  aria-label="link to from above"><img class="from above-desktop-img " src="./images/desktop/image-from-above.jpg" alt="from above image"></a><h4 class="link-description">From up<br> above VR</h4>
+    </div>
+    <div class="creation-images column">
+      <a href="#"  aria-label="link to pocket borealis"><img class="pocket-borealis-desktop-img " src="./images/desktop/image-pocket-borealis.jpg" alt="pocket borealis image"></a><h4 class="link-description"> Pocket<br> borealis</h4>
+    </div>
+    <div class="creation-images column">
+      <a href="#"  aria-label="link to curiosity"><img class="curiosity-desktop-img " src="./images/desktop/image-curiosity.jpg" alt="curiosity image"></a><h4 class="link-description">The<br> curiosity</h4>
+    </div>
+    <div class="creation-images column">
+      <a href="#"  aria-label="link to fsheye"><img class="fisheye-desktop-img " src="./images/desktop/image-fisheye.jpg" alt="fisheye image"></a><h4 class="link-description">Make it<br> fisheye</h4>
+    </div>
+  </div class="creation-image-containers">
+ </div>
+   </section>
+      <!-- Mobile images -->
+      <div class="mobile-image-containers row">
+        <div class="creation-images column">
+          <img class="deep-earth-mobile-img " src="./images/mobile/image-deep-earth.jpg" alt="deep earth image"><h4 class="link-description">Deep <br>earth</h4>
+        </div>
+        <div class="creation-images column">
+          <img class="night-arcade-mobile-img " src="./images/mobile/image-night-arcade.jpg" alt="night arcade image"><h4 class="link-description"> Night<br> arcade</h4>
+        </div>
+        <div class="creation-images column">
+          <img class="soccer-team-mobile-img " src="./images/mobile/image-soccer-team.jpg" alt="soccer team image"><h4 class="link-description">Soccer<br> team VR</h4>
+        </div>
+        <div class="creation-images column">
+          <img class="grid-mobile-img " src="./images/mobile/image-grid.jpg" alt="grid image"><h4 class="link-description">The<br> grid</h4>
+        </div>
+        <div class="creation-images column">
+          <img class="from-above-mobile-img " src="./images/mobile/image-from-above.jpg" alt="from-above image"><h4 class="link-description">From up<br> above VR</h4>
+        </div>
+        <div class="creation-images column">
+          <img class="pocket-borealis-mobile-img " src="./images/mobile/image-pocket-borealis.jpg" alt="pocket borealis image"><h4 class="link-description"> Pocket<br> borealis</h4>
+        </div>
+        <div class="creation-images column">
+          <img class="curiosity-mobile-img " src="./images/mobile/image-curiosity.jpg" alt="curiosity image"><h4 class="link-description">The<br> curiosity</h4>
+        </div>
+        <div class="creation-images column">
+          <img class="fisheye-mobile-img " src="./images/mobile/image-fisheye.jpg" alt="fisheye image"><h4 class="link-description">Make it<br> fisheye</h4>
+        </div>
+      </div>
+      <div class="button">
+        <button class="btn btn-bottom">See all</button>
+      </div>
+    </section>
+        
+    <footer >
+      <div class="bottom">
+        <div class="left">
+          <img class="logo-bottom" src="./images/logo.svg" alt="business logo">
+          <div class="nav-bottom">
+            <a class="bottom-link" href="#" aria-label="link to about us">About</a>
+            <a class="bottom-link" href="#" aria-label="link to careers">Careers</a>
+            <a class="bottom-link" href="#" aria-label="link to events">Events</a>
+            <a class="bottom-link" href="#" aria-label="link to products">Products</a>
+            <a class="bottom-link" href="#" aria-label="link to support">Support</a>
+          </div>
+        </div>
+        <div class="right">
+          <div class="social-copyright-flex">
+            <div class="social-nav">
+              <a href="www.facebook.com/" aria-label="link to facebook"><img class="icons" src="./images/icon-facebook.svg" alt="facebook"></a>
+              <a href="www.twitter.com/" aria-label="link to twitter"><img class="icons" src="./images/icon-twitter.svg" alt="twitter"></a>
+              <a href="www.pinterest.com/" aria-label="link to pinterest"><img class="icons" src="./images/icon-pinterest.svg" alt="pinterest"></a>
+              <a href="www.instagram.com" aria-label="link to instagram"><img class="icons" src="./images/icon-instagram.svg" alt="instagram"></a>
+            </div>
+            <p class="copyright">© 2021 Loopstudios. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div class="bottom">
+    </footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">brian</a>.
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
